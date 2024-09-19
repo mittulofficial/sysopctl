@@ -1,7 +1,7 @@
 #!/bin/bash
 VERSION="v0.1.0"
 
-# Display help menu
+
 function show_help() {
   echo "sysopctl - A system operations management command"
   echo "Usage: sysopctl [options]"
@@ -13,7 +13,7 @@ function show_help() {
   echo "  system load     Show system load"
 }
 
-# Check command-line arguments
+
 case $1 in
   --help)
     show_help
